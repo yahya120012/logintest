@@ -25,7 +25,7 @@ const { chromium } = require('playwright');
       await page.screenshot({ path: 'ss/hatamesaji1.png' });
       await button.click();
       console.log('Butona tıklandı!');
-    } catch (error) {
+    } catch (error) {     
       await page.screenshot({ path: 'ss/error_screenshot.png' });
       console.log('Buton bulunamadı!');
     }
