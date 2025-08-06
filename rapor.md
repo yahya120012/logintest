@@ -44,4 +44,8 @@ Sistem, hatalı girişlerde doğru uyarı mesajlarını gösterdi ve doğru bilg
 ## Genel Değerlendirme
 Test edilen tüm senaryolar başarıyla sonuçlanmıştır.  
 Kritik fonksiyonlar hatasız çalışmakta, performans kabul edilebilir seviyededir.  
-Herhangi bir hata veya performans sorunu
+Herhangi bir hata veya performans sorunu tespit edilmemiştir.
+
+---
+
+**📌 Not:** Bu test raporunda kullanılan ekran görüntüleri, `ss/` klasörü altında saklanmaktadır ve gerektiğinde referans olarak kullanılabilir.
