@@ -1,0 +1,23 @@
+{
+  "name": "logintest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yahya120012/logintest.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yahya120012/logintest/issues"
+  },
+  "homepage": "https://github.com/yahya120012/logintest#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.54.2"
+  }
+}
