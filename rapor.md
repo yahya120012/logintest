@@ -4,7 +4,7 @@
 CV US Test Uygulaması
 
 ## Test Tarihi
-06 Ağustos 2025
+06 Ağustos 2025 , 10:00
 
 ## Test Amacı
 Bu rapor, Test Uygulaması'nın kullanıcı doğrulama fonksiyonlarının farklı senaryolarda doğruluğunu değerlendirmek amacıyla hazırlanmıştır.
