@@ -10,7 +10,7 @@ CV US Test Uygulaması
 Bu rapor, Test Uygulaması'nın kullanıcı doğrulama fonksiyonlarının farklı senaryolarda doğruluğunu değerlendirmek amacıyla hazırlanmıştır.
 
 ## Test Ortamı
-- İşletim Sistemi: Windows 12
+- İşletim Sistemi: Windows 11
 - Test Aracı:Otomatik(Playwright )
 
 
