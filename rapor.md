@@ -22,9 +22,10 @@ Bu rapor, Test Uygulaması'nın kullanıcı doğrulama fonksiyonlarının farkl�
 | 2       | Yanlış e-posta ve doğru şifre                     | Giriş başarısız olmalı             | Giriş reddedildi                | ✅ Geçti  |
 | 3       | Doğru e-posta ve yanlış şifre                     | Giriş başarısız olmalı             | Giriş reddedildi                | ✅ Geçti  |
 | 4       | Yanlış e-posta ve yanlış şifre                     | Giriş başarısız olmalı             | Giriş reddedildi                | ✅ Geçti  |
-| 6       | E-posta alanı boş bırakıldı                       | "E-posta zorunludur" uyarısı gösterilmeli | Uyarı gösterildi       | ✅ Geçti  |
-| 7       | Şifre alanı boş bırakıldı                          | "Şifre zorunludur" uyarısı gösterilmeli  | Uyarı gösterildi       | ✅ Geçti  |
-| 8       | E-posta ve şifre alanları boş bırakıldı           | "E-posta ve şifre zorunludur" uyarısı gösterilmeli | Uyarı gösterildi | ✅ Geçti  |
+| 5       | E-posta alanı boş bırakıldı                       | "E-posta zorunludur" uyarısı gösterilmeli | Uyarı gösterildi       | ✅ Geçti  |
+| 6       | Şifre alanı boş bırakıldı                          | "Şifre zorunludur" uyarısı gösterilmeli  | Uyarı gösterildi       | ✅ Geçti  |
+| 7       | E-posta ve şifre alanları boş bırakıldı           | "E-posta ve şifre zorunludur" uyarısı gösterilmeli | Uyarı gösterildi | ✅ Geçti  |
+| 7       | giriş yapılıp cıkılması                           | "giriş ekranına giri dönmesi"              |giriş ekranına giri döndü  |✅ Geçti  |
 
 ## Genel Değerlendirme
 Test uygulamasının kullanıcı doğrulama modülü, zorunlu alanlar dahil olmak üzere çeşitli senaryolarda beklendiği gibi çalışmaktadır. Uyarılar doğru şekilde gösterilmiştir.
