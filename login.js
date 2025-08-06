@@ -47,6 +47,22 @@ const { chromium } = require('playwright');
     }
     await teizle();
 
+    console.log("Sitede hatalı  veşifre giriliyor...");
+    await page.fill('xpath=//*[@id="app-container"]/div/div[2]/div[1]/form/div[1]/div[2]/input', "yanlış@gmail.com");
+    await page.fill('xpath=//*[@id="app-container"]/div/div[2]/div[1]/form/div[2]/div[2]/input', "yanlış.demir@12");
+    await page.click('xpath=//*[@id="app-container"]/div/div[2]/div[1]/form/div[4]/button');
+    try {
+      const button = await page.waitForSelector('xpath=/html/body/div[3]/div/div[6]/button[1]', { timeout: 5000 });
+      await page.waitForTimeout(1000);
+      await page.screenshot({ path: 'ss/hatamesaji4.png' });
+      await button.click();
+      console.log('Butona tıklandı!');
+    } catch (error) {
+      await page.screenshot({ path: 'ss/error_screenshot3.png' });
+      console.log('Buton bulunamadı!');
+    }
+    await teizle();
+
     console.log("Sitede boş şifre giriliyor...");
     try {
       await page.fill('xpath=//*[@id="app-container"]/div/div[2]/div[1]/form/div[1]/div[2]/input', "melih.demir@gmail.com");
