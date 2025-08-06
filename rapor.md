@@ -16,7 +16,6 @@ Bu rapor, Test Uygulaması'nın kullanıcı doğrulama fonksiyonlarının farkl�
 - İşletim Sistemi: Windows 11
 - Test Aracı: Otomatik (Playwright)
 - Tarayıcı: Google Chrome 138.0
-- Ağ Durumu: Stabil (50 Mbps)
 
 ## Ön Koşullar
 - Kullanıcı veritabanında en az 1 kayıtlı kullanıcı olmalı.
