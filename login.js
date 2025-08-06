@@ -108,6 +108,30 @@ const { chromium } = require('playwright');
     }
     await teizle();
 
+     console.log("hesaptan cıkılıyor...");
+    await page.fill('xpath=//*[@id="app-container"]/div/div[2]/div[1]/form/div[1]/div[2]/input', "melih.demir@gmail.com");
+    await page.fill('xpath=//*[@id="app-container"]/div/div[2]/div[1]/form/div[2]/div[2]/input', "Melih.demir@12");
+
+    console.log('Kabul ediliyor...');
+    await page.click("#rememberMe");
+    await page.waitForTimeout(1000);
+
+    console.log("Giriş yapılıyor...");
+    await page.click('xpath=//*[@id="app-container"]/div/div[2]/div[1]/form/div[4]/button');
+    await page.waitForTimeout(2000);
+
+    console.log("hesaptan cıkılıyor...");
+    await page.click('xpath=//*[@id="app-container"]/div[1]/div[2]/div[2]/button');
+    await page.click('xpath=//*[@id="app-container"]/div[1]/div[2]/div[2]/div/div[2]/button');
+    await page.click('xpath=/html/body/div[3]/div/div[6]/button[1]');
+    await page.waitForTimeout(1000);
+
+    console.log("Ekran görüntüsü alınıyor...");
+    await page.screenshot({ path: 'ss/girişekranı.png' });
+
+
+
+
     console.log("Sitede şifre ve eposta giriliyor...");
     await page.fill('xpath=//*[@id="app-container"]/div/div[2]/div[1]/form/div[1]/div[2]/input', "melih.demir@gmail.com");
     await page.fill('xpath=//*[@id="app-container"]/div/div[2]/div[1]/form/div[2]/div[2]/input', "Melih.demir@12");
