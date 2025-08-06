@@ -22,7 +22,6 @@ Bu rapor, Test Uygulaması'nın kullanıcı doğrulama fonksiyonlarının farkl�
 | 2       | Yanlış e-posta ve doğru şifre                     | Giriş başarısız olmalı             | Giriş reddedildi                | ✅ Geçti  |
 | 3       | Doğru e-posta ve yanlış şifre                     | Giriş başarısız olmalı             | Giriş reddedildi                | ✅ Geçti  |
 | 4       | Yanlış e-posta ve yanlış şifre                     | Giriş başarısız olmalı             | Giriş reddedildi                | ✅ Geçti  |
-| 5       | Şifre sıfırlama talebi                            | Şifre sıfırlama maili gönderilmeli| Mail gönderildi                | ✅ Geçti  |
 | 6       | E-posta alanı boş bırakıldı                       | "E-posta zorunludur" uyarısı gösterilmeli | Uyarı gösterildi       | ✅ Geçti  |
 | 7       | Şifre alanı boş bırakıldı                          | "Şifre zorunludur" uyarısı gösterilmeli  | Uyarı gösterildi       | ✅ Geçti  |
 | 8       | E-posta ve şifre alanları boş bırakıldı           | "E-posta ve şifre zorunludur" uyarısı gösterilmeli | Uyarı gösterildi | ✅ Geçti  |
